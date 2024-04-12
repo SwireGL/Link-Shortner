@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 
-const generateId = (length: number) => {
+export const generateId = (length: number) => {
     const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
     let result = '';
     const charactersLength = characters.length;
